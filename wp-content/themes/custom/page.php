@@ -1,10 +1,4 @@
 <?php get_header(); ?>
-<body class="diag">
-
-<!-- LOADER -->
-<div class="loader-wrapper">
-    <div class="loader"></div>
-</div>
 
 <nav class="subpage-nav">
     <div class="row">
@@ -14,25 +8,25 @@
             </div>
             <div class="responsive"><i data-icon="m" class="icon"></i></div>
             <ul class="nav-menu">
-                <li><a href="index.html#home" class="smoothScroll">Home</a></li>
-                <li><a href="index.html#about" class="smoothScroll">About</a></li>
-                <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
-                <li><a href="index.html#blog" class="smoothScroll">Blog</a></li>
-                <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+              <li><a href="/#home" class="smoothScroll">Home</a></li>
+              <li><a href="/#about" class="smoothScroll">About</a></li>
+              <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+              <li><a href="/#shop" class="smoothScroll">Shop</a></li>
+              <li><a href="#contact" class="smoothScroll">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
-
-
+<img style="max-width: 100%;" src="https://picsum.photos/1900/400?image=849" alt="">
 <div class="container content">
+
     <div class="row">
         <div class="blog-single col-md-8 col-md-offset-2">
             <div class="blog-image">
                 <img src="images/blog-big.jpg" alt="">
             </div>
-            <h1>Separated they live in Bookmarksgrove right at the coast of the Semantics</h1>
-            <div class="blog-detail">Posted <span>7 September 2016</span> by Larry Stark  </div>
+            <h1>My great works of art</h1>
+            <div class="blog-detail">Posted <span>8 July 2018</span> by Mark himself  </div>
 
             <div class="blog-content">
 
@@ -43,6 +37,35 @@
             <blockquote>
     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque suscipit tincidunt magna non mollis. Fusce tempus tincidunt nisi, in luctus elit pellentesque quis. Sed velit mi, ullamcorper ut tempor ut, mattis eu lacus. Morbi rhoncus aliquet tellus, id accumsan enim sollicitudin vitae.
    </blockquote>
+
+   <!-- Blogs -->
+   <div class="row">
+
+     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.8s">
+         <div class="blog-image">
+             <a class="link" href="https://picsum.photos/1100/600?image=975">
+               <img style="min-height: auto;" src="https://picsum.photos/400/350?image=975">
+             </a>
+         </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.8s">
+        <div class="blog-image">
+            <a class="link" href="https://picsum.photos/1100/600?image=974">
+              <img style="min-height: auto;" src="https://picsum.photos/400/350?image=974">
+            </a>
+        </div>
+   </div>
+
+   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.8s">
+       <div class="blog-image">
+           <a class="link" href="https://picsum.photos/1100/600?image=977">
+             <img style="min-height: auto;" src="https://picsum.photos/400/350?image=977">
+           </a>
+       </div>
+  </div>
+
+   </div>
 
             <p>
             Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. Increasing sufficient everything men him admiration unpleasing sex. Around really his use uneasy longer him man. His our pulled nature elinor talked now for excuse result. Admitted add peculiar get joy doubtful.
@@ -59,104 +82,126 @@
             <!-- Lightbox images -->
             <div class="post-lightbox row">
                 <!-- image 1 -->
-                <a href="images/work-1.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                <a href="images/work-1.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image ">
                     <img src="images/work-1.jpg" alt="">
                 </a>
                  <!-- image 1 -->
-                <a href="images/work-2.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                <a href="images/work-2.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image ">
                     <img src="images/work-2.jpg" alt="">
                 </a>
                  <!-- image 1 -->
-                <a href="images/work-3.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                <a href="images/work-3.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image ">
                     <img src="images/work-3.jpg" alt="">
                 </a>
             </div>
 
             </div>
 
-            <!-- Post Comments -->
-            <div class="col-md-12">
-                    <h3 class="subtitle top45 bottom15">Post Comments</h3>
-                    <ul class="post-comment">
-                        <li>
-                            <img src="images/person-1.jpg"  alt="">
-                                <div class="comment-info">
-                                    <h3>Mary R. Peterson</h3>
-                                    <a href="#"> Reply </a>
-                                    <span>Sep 26, 2016 at 14:35</span>
-                                    <p>Kept in sent gave feel will oh it we. Has pleasure procured men laughing shutters nay. Old insipidity motionless continuing law shy partiality. </p>
-                                </div>
-                        </li>
-                        <li class="reply">
-                            <img src="images/person-2.jpg" alt="">
-                                <div class="comment-info">
-                                    <h3>Mary R. Peterson</h3>
-                                    <a href="#"> Reply </a>
-                                    <span>Sep 26, 2016 at 14:35</span>
-                                    <p>Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct. </p>
-                                </div>
-                        </li>
-                        <li>
-                            <img src="images/person-3.jpg" alt="">
-                                <div class="comment-info">
-                                    <h3>Geoffrey B. Ashley</h3>
-                                    <a href="#"> Reply </a>
-                                    <span>Sep 26, 2016 at 14:35</span>
-                                    <p>Agreed joy vanity regret met may ladies oppose who. Mile fail as left as hard eyes. Meet made call in mean four year it to.  </p>
-                                </div>
-                        </li>
-                    </ul>
-                </div>
-         <!-- Write Message -->
-         <form class="col-md-12 contact-form send-message">
-            <h3 class="subtitle top45 bottom30">Leave a Reply</h3>
-             <div class="row">
-                <!--Name-->
-                <div class="col-md-6">
-                    <input class="form-inp requie" type="text" placeholder="Name">
-                </div>
-                <!--Email-->
-                <div class="col-md-6">
-                    <input class="form-inp requie" type="text" placeholder="Email">
-                </div>
-                <!--Message-->
-                <div class="col-md-12">
-                    <textarea name="con_message" placeholder="Message" rows="8"></textarea>
-                </div>
-                </div>
-                <input id="con_submit" class="sitebtn" type="submit" value="Send a Message">
 
-            </form>
 
         </div>
     </div>
 </div>
 
-
-<footer>
+<!--PORTFOLIO-->
+<section class="portfolio" id="portfolio">
     <div class="container">
-        <div class="social">
-            <a href="#">facebook </a>
-            <a href="#">twitter </a>
-            <a href="#">instagram </a>
-            <a href="#">google plus </a>
-            <a href="#">behance </a>
-            <a href="#">dribbble  </a>
+        <div class="section-title dleft top_120 bottom_90">
+            <h2>PORTFOLIO</h2>
+            <div class="portfolio_filter">
+                <ul>
+                    <li class="select-cat" data-filter="*">All</li>
+                    <li data-filter=".commission">Commission</li>
+                    <li data-filter=".mural">Mural</li>
+                    <li data-filter=".prints">Prints</li>
+                </ul>
+            </div>
         </div>
-        <p>Copyright © 2018 Berlin, All rights Reserved. <br/>
-Created by tavonline</p>
+        <!--Portfolio Items-->
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="isotope_items row">
+                    <!-- Item -->
+                    <a href="/project" class="single_item prints col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <img src="<?= get_template_directory_uri() ?>/images/prints-1.jpg" alt="">
+                    </a>
+                    <!-- Item -->
+                    <a href="/project" class="single_item mural col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="<?= get_template_directory_uri() ?>/images/mural-1.jpg" alt="">
+                    </a>
+                    <!-- Item -->
+                    <a href="/project" class="single_item prints col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+                        <img src="<?= get_template_directory_uri() ?>/images/prints-2.jpg" alt="">
+                    </a>
+                    <!-- Item -->
+                    <a href="/project" class="single_item commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
+                        <img src="<?= get_template_directory_uri() ?>/images/commission-1.jpg" alt="">
+                    </a>
+                    <!-- Item -->
+                    <a href="/project" class="single_item mural commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="<?= get_template_directory_uri() ?>/images/mural-2.jpg" alt="">
+                    </a>
+                    <!-- Item -->
+                    <a href="/project" class="single_item commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.8s">
+                        <img src="<?= get_template_directory_uri() ?>/images/commission-2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
-
-<!-- Javascripts -->
-<script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/typed.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/main.js"></script>
+    <svg class="diagonal-white" width="100%" height="170" viewBox="0 0 100 102" preserveAspectRatio="none">
+        <path d="M0 0 L30 100 L100 0 Z"></path>
+    </svg>
+</section>
 
 
-</body>
-</html>
+<!-- CONTACT -->
+<section class="contact" id="contact" style="background: #f5f5f5;">
+    <div class="container">
+
+        <div class="section-title dleft top_120">
+            <h2 class="bottom_30">REACH OUT AND TOUCH ME</h2>
+        </div>
+        <div class="col-md-3 wow fadeInUp" data-wow-delay="0.3s">
+            <!-- Contact Info -->
+            <ul class="contact-info row">
+                <li>313 backstreet boyz drive,</li>
+                <li><br>iloveboyz@gmail.com</li>
+                <li>0800 123 456789</li>
+            </ul>
+            <div class="social-icons top_60 row">
+                <a class="fb" href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a class="tw" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a class="ins" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a class="bh" href="#"><i class="fab fa-behance" aria-hidden="true"></i></a>
+                <a class="dr" href="#"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="col-md-7 col-md-offset-2 form top_30 bottom_90 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="page-title sub">
+                    <h5>leave a message</h5>
+                </div>
+                <form class="contact-form top_60" method="POST" action="mail.php">
+                    <div class="row">
+                        <!--Name-->
+                        <div class="col-md-6">
+                            <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
+                        </div>
+                        <!--Email-->
+                        <div class="col-md-6">
+                            <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <!--Message-->
+                            <textarea name="con_message" id="con_message" class="requie" placeholder="How can I help you?" rows="8"></textarea>
+                            <button id="con_submit" class="sitebtn top_30 pull-right" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+</section>
+
+
+
+<?php get_footer(); ?>

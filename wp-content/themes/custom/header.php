@@ -35,9 +35,9 @@
 <body class="diag">
 
 <!-- LOADER -->
-<div class="loader-wrapper">
+<!-- <div class="loader-wrapper">
     <div class="loader"></div>
-</div>
+</div> -->
 
     <nav>
         <div class="row">

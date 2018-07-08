@@ -1,4 +1,4 @@
-<footer>
+<footer style="margin-top: 0;">
     <div class="container">
         <div class="social">
             <a href="#">facebook </a>

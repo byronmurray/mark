@@ -1,4 +1,10 @@
 <?php get_header(); ?>        <!--HOME-->
+
+<style media="screen">
+  .pt-4 {
+    padding-top: 1em;
+  }
+</style>
         <section class="home" id="home">
                 <div class="home-content">
                     <div class="container">
@@ -133,27 +139,27 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="isotope_items row">
                             <!-- Item -->
-                            <a href="<?= get_template_directory_uri() ?>/images/prints-1.jpg" class="single_item link prints col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <a href="/project" class="single_item prints col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <img src="<?= get_template_directory_uri() ?>/images/prints-1.jpg" alt="">
                             </a>
                             <!-- Item -->
-                            <a href="<?= get_template_directory_uri() ?>/images/mural-1.jpg" class="single_item link mural col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <a href="/project" class="single_item mural col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                                 <img src="<?= get_template_directory_uri() ?>/images/mural-1.jpg" alt="">
                             </a>
                             <!-- Item -->
-                            <a href="<?= get_template_directory_uri() ?>/images/prints-2.jpg" class="single_item link prints col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+                            <a href="/project" class="single_item prints col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
                                 <img src="<?= get_template_directory_uri() ?>/images/prints-2.jpg" alt="">
                             </a>
                             <!-- Item -->
-                            <a href="<?= get_template_directory_uri() ?>/images/commission-1.jpg" class="single_item link commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
+                            <a href="/project" class="single_item commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
                                 <img src="<?= get_template_directory_uri() ?>/images/commission-1.jpg" alt="">
                             </a>
                             <!-- Item -->
-                            <a href="<?= get_template_directory_uri() ?>/images/mural-2.jpg" class="single_item link mural commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.5s">
+                            <a href="/project" class="single_item mural commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.5s">
                                 <img src="<?= get_template_directory_uri() ?>/images/mural-2.jpg" alt="">
                             </a>
                             <!-- Item -->
-                            <a href="<?= get_template_directory_uri() ?>/images/commission-2.jpg" class="single_item link commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.8s">
+                            <a href="/project" class="single_item commission col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.8s">
                                 <img src="<?= get_template_directory_uri() ?>/images/commission-2.jpg" alt="">
                             </a>
                         </div>
@@ -176,26 +182,56 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
                             <div class="blog-image">
-                                <img src="<?= get_template_directory_uri() ?>/images/sale-1.jpg">
+                              <a class="link" href="https://picsum.photos/1100/600?image=975">
+                                <img style="min-height: auto;" src="https://picsum.photos/400/250?image=975">
+                              </a>
                             </div>
                             <h2 class="blog-title">Lake and Create</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="text-center pt-4">
+                              <div class="price">
+                                $50.00
+                              </div>
+                              <div class="buynow">
+                                <a href="#contact">buy now</a>
+                              </div>
+                            </div>
 
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.6s">
                             <div class="blog-image">
-                                <img src="<?= get_template_directory_uri() ?>/images/sale-2.jpg">
+                              <a class="link" href="https://picsum.photos/1100/600?image=974">
+                                <img style="min-height: auto;" src="https://picsum.photos/400/250?image=974">
+                              </a>
                             </div>
                             <h2 class="blog-title">Services Garden</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="text-center pt-4">
+                              <div class="price">
+                                $50.00
+                              </div>
+                              <div class="buynow">
+                                <a href="#contact">buy now</a>
+                              </div>
+                            </div>
 
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.8s">
                             <div class="blog-image">
-                                <img src="<?= get_template_directory_uri() ?>/images/sale-3.jpg">
+                              <a class="link" href="https://picsum.photos/1100/600?image=977">
+                                <img style="min-height: auto;" src="https://picsum.photos/400/250?image=977">
+                              </a>
                             </div>
                             <h2 class="blog-title">Auckland Hospital - youth space</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="text-center pt-4">
+                              <div class="price">
+                                $50.00
+                              </div>
+                              <div class="buynow">
+                                <a href="#contact">buy now</a>
+                              </div>
+                            </div>
 
                         </div>
 
