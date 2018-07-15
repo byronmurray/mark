@@ -22,9 +22,7 @@
 
     <div class="row">
         <div class="blog-single col-md-8 col-md-offset-2">
-            <div class="blog-image">
-                <img src="images/blog-big.jpg" alt="">
-            </div>
+            
             <h1>My great works of art</h1>
             <div class="blog-detail">Posted <span>8 July 2018</span> by Mark himself  </div>
 
